@@ -1,0 +1,84 @@
+{
+  "tasks": [
+    {
+      "id": 31,
+      "project_id": 4,
+      "week_number": 1,
+      "text": "Create a TypeScript function for email address validation using regex.",
+      "is_completed": 0,
+      "created_at": "2026-04-01T15:23:06.000Z",
+      "verification_type": null,
+      "verification_url": null
+    },
+    {
+      "id": 32,
+      "project_id": 4,
+      "week_number": 1,
+      "text": "Write unit tests for the email validation utility function in TypeScript.",
+      "is_completed": 0,
+      "created_at": "2026-04-01T15:23:06.000Z",
+      "verification_type": null,
+      "verification_url": null
+    },
+    {
+      "id": 33,
+      "project_id": 4,
+      "week_number": 1,
+      "text": "Develop a React Theme Toggle component that toggles between light and dark modes.",
+      "is_completed": 0,
+      "created_at": "2026-04-01T15:23:06.000Z",
+      "verification_type": null,
+      "verification_url": null
+    },
+    {
+      "id": 34,
+      "project_id": 4,
+      "week_number": 1,
+      "text": "Implement localStorage persistence for the theme preference in the React component.",
+      "is_completed": 0,
+      "created_at": "2026-04-01T15:23:06.000Z",
+      "verification_type": null,
+      "verification_url": null
+    },
+    {
+      "id": 35,
+      "project_id": 4,
+      "week_number": 1,
+      "text": "Create a basic shell script to remove logs and build artifacts from the project directory.",
+      "is_completed": 0,
+      "created_at": "2026-04-01T15:23:06.000Z",
+      "verification_type": null,
+      "verification_url": null
+    },
+    {
+      "id": 36,
+      "project_id": 4,
+      "week_number": 1,
+      "text": "Test the shell script to ensure it correctly removes specified files without errors.",
+      "is_completed": 0,
+      "created_at": "2026-04-01T15:23:06.000Z",
+      "verification_type": null,
+      "verification_url": null
+    }
+  ],
+  "projects": [
+    {
+      "id": 4,
+      "account_id": 1,
+      "name": "YesBoss",
+      "description": "Yes boss project aims to fix the productivity problems by making solo founder face consequences of his each missed deadline which add some accountibility while building the prodcut. Most solo founder keep brain storming and forget to ship the actual thing. YesBoss aims to fix that by adding superior autherioty with power on the top of the founder. ",
+      "tech_stack": "Next.js SQL Flutter ",
+      "deadline": "2026-05-29T18:30:00.000Z",
+      "created_at": "2026-03-30T10:04:38.000Z"
+    },
+    {
+      "id": 5,
+      "account_id": 1,
+      "name": "GhostLink",
+      "description": "Building platform for secure delegation of website credentials...",
+      "tech_stack": "Next.js Tauri 2.0",
+      "deadline": "2026-07-01T18:30:00.000Z",
+      "created_at": "2026-03-31T19:05:51.000Z"
+    }
+  ]
+}

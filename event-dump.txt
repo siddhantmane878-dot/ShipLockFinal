@@ -1,0 +1,27 @@
+﻿=== FULL PushEvent payload ===
+{
+  "id": "10081731664",
+  "type": "PushEvent",
+  "actor": {
+    "id": 272860179,
+    "login": "siddhantmane878-dot",
+    "display_login": "siddhantmane878-dot",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/siddhantmane878-dot",
+    "avatar_url": "https://avatars.githubusercontent.com/u/272860179?"
+  },
+  "repo": {
+    "id": 1198601021,
+    "name": "siddhantmane878-dot/YesBoss-Testing",
+    "url": "https://api.github.com/repos/siddhantmane878-dot/YesBoss-Testing"
+  },
+  "payload": {
+    "repository_id": 1198601021,
+    "push_id": 32374977027,
+    "ref": "refs/heads/main",
+    "head": "480a532420c0b54132869e39b4ce094cc2fe7d9c",
+    "before": "0cb0039f470c8f0876672fe5e6e4b762aea477d1"
+  },
+  "public": true,
+  "created_at": "2026-04-01T15:33:59Z"
+}

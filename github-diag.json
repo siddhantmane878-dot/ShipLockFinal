@@ -1,0 +1,18 @@
+{
+  "storedUsername": "siddhantmane878-dot",
+  "tokenBelongsTo": "siddhantmane878-dot",
+  "match": true,
+  "totalEvents": 2,
+  "events": [
+    {
+      "type": "PushEvent",
+      "created_at": "2026-04-01T15:33:59Z",
+      "repo": "siddhantmane878-dot/YesBoss-Testing"
+    },
+    {
+      "type": "CreateEvent",
+      "created_at": "2026-04-01T15:20:51Z",
+      "repo": "siddhantmane878-dot/YesBoss-Testing"
+    }
+  ]
+}

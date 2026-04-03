@@ -1,0 +1,16 @@
+﻿1. User: siddhantmane878-dot
+2. Tasks: 6
+3. Fetching GitHub events...
+   Events status: 200
+   Events count: 2
+4. Recent push events (7d): 1
+node : FATAL ERROR: push.payload.commits is not iterable
+At line:1 char:1
++ node debug-verify.js 2>&1 | Out-File -FilePath debug-out.json -Encodi ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo              : NotSpecified: (FAT    AL ERROR: pu...is not     iterable:String) [], R    emoteException
+    + FullyQualifiedErrorI    d : NativeCommandError
+ 
+TypeError: push.payload.commits is not iterable
+    at main (C:\Users\Jaysing\Desktop\YesBoss\app\debug-verify.js:46:39)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)

@@ -1,0 +1,23 @@
+﻿Username: siddhantmane878-dot
+Token prefix: gho_MDgbnFN4Nea...
+Token length: 40
+
+=== Step 1: Token validation ===
+Token belongs to: siddhantmane878-dot
+Token scopes from header: repo, user
+
+=== Step 2: Events API (authenticated) ===
+URL: https://api.github.com/users/siddhantmane878-dot/events?per_page=30
+Status: 200
+Is array: true
+Total events: 2
+
+All events:
+  [0] type=PushEvent, created_at=2026-04-01T15:33:59Z, repo=siddhantmane878-dot/YesBoss-Testing
+  [1] type=CreateEvent, created_at=2026-04-01T15:20:51Z, repo=siddhantmane878-dot/YesBoss-Testing
+
+=== Step 3: Filtering ===
+Seven days ago: 2026-03-25T16:22:59.702Z
+PushEvent at 2026-04-01T15:33:59Z, isRecent=true, date comparison: 1775057639000 >= 1774455779702
+
+Recent commits found: 0

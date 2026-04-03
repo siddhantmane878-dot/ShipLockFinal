@@ -1,0 +1,151 @@
+.container {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f4f7f9; /* Subtle light grayish-blue background */
+  font-family: var(--font-inter), sans-serif;
+}
+
+.card {
+  background: #ffffff;
+  width: 100%;
+  max-width: 420px;
+  padding: 48px;
+  border: 1px solid #eaeaea;
+}
+
+.header {
+  text-align: left;
+  margin-bottom: 40px;
+}
+
+.logoWrap {
+  margin-bottom: 8px;
+}
+
+.tagline {
+  font-size: 13px;
+  color: #737373;
+  margin: 0;
+  letter-spacing: 0.02em;
+}
+
+.formGroup {
+  margin-bottom: 24px;
+}
+
+.label {
+  display: block;
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: #404040;
+  margin-bottom: 8px;
+}
+
+.input {
+  width: 100%;
+  padding: 14px 16px;
+  font-size: 14px;
+  border: 1px solid #e5e5e5;
+  border-radius: 2px;
+  outline: none;
+  transition: border-color 0.2s ease;
+  color: #000;
+}
+
+.input::placeholder {
+  color: #a3a3a3;
+}
+
+.input:focus {
+  border-color: #000;
+}
+
+.submitBtn {
+  width: 100%;
+  background: #000000;
+  color: #ffffff;
+  border: none;
+  padding: 16px;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  border-radius: 2px;
+  transition: opacity 0.2s ease;
+  margin-bottom: 24px;
+}
+
+.submitBtn:hover {
+  opacity: 0.9;
+}
+
+.submitBtn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.forgotLink {
+  display: block;
+  text-align: center;
+  font-size: 11px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: #525252;
+  text-decoration: none;
+  margin-bottom: 40px;
+}
+
+.forgotLink:hover {
+  color: #000;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top: 1px solid transparent; /* Just to maintain spacing if needed, but design has no line */
+  padding-top: 8px;
+}
+
+.footer span {
+  font-size: 11px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #737373;
+  letter-spacing: 0.04em;
+}
+
+.footer a {
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #000;
+  text-decoration: none;
+  letter-spacing: 0.04em;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
+.error {
+  color: #dc2626;
+  font-size: 12px;
+  margin-bottom: 16px;
+  background: #fef2f2;
+  padding: 12px;
+  border-left: 3px solid #dc2626;
+}
+
+.success {
+  color: #16a34a;
+  font-size: 12px;
+  margin-bottom: 16px;
+  background: #f0fdf4;
+  padding: 12px;
+  border-left: 3px solid #16a34a;
+}

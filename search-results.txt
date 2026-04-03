@@ -1,0 +1,12 @@
+﻿Username: siddhantmane878-dot
+
+--- Test 1: Search API ---
+URL: https://api.github.com/search/commits?q=author:siddhantmane878-dot+author-date:>=2026-03-25&sort=author-date&order=desc&per_page=5
+Status: 200
+Total count: 0
+Items: 0
+Full response keys: [ 'total_count', 'incomplete_results', 'items' ]
+
+--- Test 2: Events API ---
+Push events found: 1
+  Repo: siddhantmane878-dot/YesBoss-Testing
